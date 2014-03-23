@@ -1,5 +1,6 @@
 name: Simple Life With Simple Code!
 markdown: redcarpet
+url: http://www.xiongbo.me
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
