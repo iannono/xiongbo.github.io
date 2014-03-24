@@ -7,7 +7,9 @@ categories: capistrano ruby deploy
 
 这个主题将分为四部分内容，第一部分是介绍服务器的配置，第二部分将介绍部署代码的编写。
 
+
 ## 配置SSH验证
+
 
 因为我们的目的是实现远程发布， 所以需要两个方面的授权。
 
@@ -105,11 +107,10 @@ root@remote $ mkdir ${deploy_to}/{releases,shared}
 
 需要注意的是`chmod g+s`这个命令，**s**代表在文件执行时，将进程的属主或组ID置为该文件的文件属主， 在这里即代表所有在`deploy_to`下新建的文件，都会继承相同的组权限，即deploy。
 
-至此，我们就可以开始编写部署代码了！
-
+至此，我们就可以开始编写部署代码了！ 
 
 ## 参考
 
-http://www.capistranorb.com/
-http://railscasts.com/episodes/335-deploying-to-a-vps?view=asciicast
+[capistranorb官网](http://www.capistranorb.com/)  
+[railscasts](http://railscasts.com/episodes/335-deploying-to-a-vps?view=asciicast)
 

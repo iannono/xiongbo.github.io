@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-
+<head> 
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width">
@@ -11,14 +10,10 @@
   <![endif]-->
 
   <link href="/assets/css/style.css" rel="stylesheet" />
-  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
-
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" /> 
 </head>
 
-<body>
-
-
-
+<body> 
   <header id="header">
     <h1><a href="/"><i class="icon-sun"></i> {{ site.name }}</a></h1>
     <p>{{ site.description }}</p>
@@ -26,9 +21,7 @@
 
 
 
-  <div id="page">
-
-
+  <div id="page"> 
 
     <div id="sidebar">
       <nav>
@@ -40,25 +33,20 @@
           <li><a href="/feed.xml">RSS Feed</a></li>
         </ul>
       </nav>
-    </div>
-
-
+    </div> 
 
     <div id="content">
       {{ content }}
-    </div>
+    </div> 
 
-
-
-  </div>
-
-
+  </div> 
 
   <footer id="footer">
-    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
-  </footer>
-
-
+    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by 
+      <a href="http://jekyllrb.com">Jekyll</a>, theme by 
+      <a href="http://www.webmaster-source.com">Matt Harzewski</a>
+    </p>
+  </footer> 
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script src="/assets/js/jquery.mobilemenu.min.js"></script>
@@ -67,9 +55,6 @@
     $(document).ready(function(){
       $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
     });
-  </script>
-
-
-
+  </script> 
 </body>
 </html>
